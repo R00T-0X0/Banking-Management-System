@@ -206,6 +206,6 @@ This project demonstrates the practical use of:
 
 ## Author
 
-**GM**
+R00t-0x0
 
 GitHub: https://github.com/R00T-0X0
