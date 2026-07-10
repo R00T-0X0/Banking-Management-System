@@ -1,13 +1,13 @@
 # 🏦 Banking Management System
 
-A console-based **Banking Management System** developed in **C++**. The application allows bank employees to manage client accounts, perform banking transactions,
-and manage system users through a role-based permission system. All data is stored in text files using file handling.
+A console-based **Banking Management System** developed in **C++**. The application allows bank employees to manage client accounts,
+perform banking transactions, and manage system users through a role-based permission system. All data is stored in text files using file handling.
 
 ---
 
-## Features
+ Features
 
-### Client Management
+ Client Management
 
 * Display all clients.
 * Add a new client.
@@ -15,14 +15,14 @@ and manage system users through a role-based permission system. All data is stor
 * Delete a client.
 * Search for a client by account number.
 
-### Transactions
+ Transactions
 
 * Deposit money into a client account.
 * Withdraw money from a client account.
 * Display all client balances.
 * Calculate the total balance of all client accounts.
 
-### User Management
+ User Management
 
 * User login authentication.
 * Display all users.
@@ -31,7 +31,7 @@ and manage system users through a role-based permission system. All data is stor
 * Delete users (except the Admin account).
 * Search for users by username.
 
-### Permission System
+ Permission System
 
 Each user can be assigned permissions for specific operations:
 
@@ -47,7 +47,7 @@ The **Admin** user has full access to all system features.
 
 ---
 
-## Project Structure
+ Project Structure
 
 ```text
 Banking-Management-System/
@@ -60,11 +60,11 @@ Banking-Management-System/
 
 ---
 
-## Data Storage
+ Data Storage
 
 The project stores data in text files.
 
-### Clients.txt
+ Clients.txt
 
 Each client is stored in the following format:
 
@@ -78,7 +78,7 @@ Example:
 1001#//#1234#//#John Smith#//#0123456789#//#5000
 ```
 
-### Users.txt
+ Users.txt
 
 Each user is stored in the following format:
 
@@ -96,7 +96,7 @@ Admin#//#1234#//#-1
 
 ---
 
-## Main Menu
+ Main Menu
 
 ```text
 1. Show Client List
@@ -111,7 +111,7 @@ Admin#//#1234#//#-1
 
 ---
 
-## Transactions Menu
+ Transactions Menu
 
 ```text
 1. Deposit
@@ -122,7 +122,7 @@ Admin#//#1234#//#-1
 
 ---
 
-## Manage Users Menu
+ Manage Users Menu
 
 ```text
 1. List Users
@@ -135,7 +135,7 @@ Admin#//#1234#//#-1
 
 ---
 
-## Technologies Used
+ Technologies Used
 
 * C++
 * Standard Template Library (STL)
@@ -146,15 +146,14 @@ Admin#//#1234#//#-1
 
 ---
 
-## How to Run
+ How to Run
 
-### Clone the repository
+ Clone the repository
 
 ```bash
 git clone https://github.com/R00T-0X0/Banking-Management-System.git
 ```
-
-### Compile
+ Compile
 
 Using g++:
 
@@ -162,7 +161,7 @@ Using g++:
 g++ BankSystem.cpp -o BankingSystem
 ```
 
-### Run
+Run
 
 Windows:
 
@@ -178,7 +177,7 @@ Linux/macOS:
 
 ---
 
-## Project Objectives
+ Project Objectives
 
 This project demonstrates the practical use of:
 
@@ -193,7 +192,7 @@ This project demonstrates the practical use of:
 
 ---
 
-## Future Improvements
+ Future Improvements
 
 * Improve input validation.
 * Encrypt user passwords.
@@ -204,8 +203,7 @@ This project demonstrates the practical use of:
 
 ---
 
-## Author
-
-R00t-0x0
+ Author
+Developed by Bashar Al-Madhaji.
 
 GitHub: https://github.com/R00T-0X0
